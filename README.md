@@ -56,7 +56,7 @@ You will be fully capable of doing this homework by the end of this week's class
 		* **id**: an auto incrementing int that serves as the primary key.
 		* **burger_name**: a string.
 		* **devoured**: a boolean.
-		* **date**: a TIMESTAMP.
+		* **ç**: a TIMESTAMP.
 
 4. Still in the `db` folder, create a `seeds.sql` file. In this file, write insert queries to populate the `burgers` table with at least three entries.
 
