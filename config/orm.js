@@ -1,7 +1,7 @@
 // Import (require) `connection.js` into `orm.js`
 var connection = require('./connection.js');
 
-// ORM object, will execute the necessary MySQL commands in the controllers
+// ORM object will execute the necessary MySQL commands in the controllers
 var orm = {
   selectAll: function(cb) {
     var command = 'SELECT * FROM burgers';
