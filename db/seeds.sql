@@ -1,3 +1,3 @@
-INSERT INTO `burgers_db`.`burgers` (`id`, `burger_name`) VALUES ('1', 'bigmac');
-INSERT INTO `burgers_db`.`burgers` (`id`, `burger_name`) VALUES ('2', 'deluxe');
-INSERT INTO `burgers_db`.`burgers` (`id`, `burger_name`) VALUES ('3', 'mcdouble');
+INSERT INTO `burgers_db`.`burgers` (`burger_name`) VALUES ('Big Mac');
+INSERT INTO `burgers_db`.`burgers` (`burger_name`) VALUES ('Mc Chicken');
+INSERT INTO `burgers_db`.`burgers` (`burger_name`) VALUES ('Mc Double');

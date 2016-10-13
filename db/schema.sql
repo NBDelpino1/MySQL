@@ -1,7 +1,15 @@
 CREATE SCHEMA `burgers_db` ;
+
 CREATE TABLE `burgers_db`.`burgers` (
-  `id` INT NULL AUTO_INCREMENT,
-  `burger_name` VARCHAR(45) NULL,
-  `devoured` TINYINT(1) NULL,
-  `date` VARCHAR(45) NULL,
+  `id` INT NOT NULL AUTO_INCREMENT,
+  `burger_name` VARCHAR(45) NOT NULL,
+  `devoured` TINYINT(1) NULL DEFAULT 0,
   PRIMARY KEY (`id`));
+
+
+
+
+
+
+
+
