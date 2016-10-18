@@ -53,7 +53,7 @@ var orm = {
       queryString = queryString + printQuestionMarks(vals.length);
       queryString = queryString + ') ';
       //test to make sure query is built up as we expected
-      console.log(queryString)
+      console.log('3 | ***ORM*** | orm.js file | line 56 | CREATE function creates a burger in the DB')
       //run query
       connection.query(queryString, vals, function(err, result) {
         if (err) throw err;
@@ -72,7 +72,7 @@ var orm = {
       queryString = queryString + ' WHERE ';
       queryString = queryString + condition;
       //test to make sure query is built up as we expected
-      console.log(queryString)
+      console.log('3 | ***ORM*** | orm.js file | line 75 | UPDATE function deletes a burger from the DB')
       //run query
       connection.query(queryString, function(err, result) {
         if (err) throw err;

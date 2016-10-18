@@ -1,3 +1,28 @@
-h1{
-	color: red;
+body{
+	color: #d51f12;
+	font-family: 'Permanent Marker', cursive;
 }
+
+.btn-default{
+	background-color: #feb80b;
+}
+pre{
+	background-color: #feb80b;
+	font-family: 'Permanent Marker', cursive;	
+
+}
+
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control{
+	background-color: #d51f12;
+	margin: 9px;
+	margin-top: 0px;
+	padding: 9.5px;
+	height: 55px;
+	text-align: center;
+	border: 1px;
+	border-color: #ccc;
+	width: 70%;
+
+}
+
+
